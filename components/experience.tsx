@@ -11,7 +11,7 @@ export default function Experience() {
   const { theme } = useTheme();
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-14 sm:mb-40">
+    <section id="experience" ref={ref} className="scroll-mt-28 mb-8 sm:mb-14">
       <div className="max-w-6xl mx-auto">
         <SectionHeading>My experience</SectionHeading>
 
