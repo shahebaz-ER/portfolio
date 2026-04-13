@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc \"Shubham Soni Build CV 2025 \\(1\\).docx\" -o /tmp/cv_content.md)",
+      "Read(//tmp/**)",
+      "Bash(find \"/Users/shahebaz_shaikh/Documents/Other+Important/Personal stuff/GitHub/Shubham_portfolio\" \\\\\\( -name \"*.tsx\" -o -name \"*.ts\" \\\\\\) -exec grep -l \"sendEmail\\\\|senderEmail\\\\|message.*FormData\" {} \\\\;)",
+      "Bash(ls \"/Users/shahebaz_shaikh/Downloads/\"Shahebaz_Shaikh_Resume*)",
+      "Bash(npm install:*)",
+      "Bash(export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\")",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/shahebaz_shaikh/.nvm/versions/**)",
+      "Read(//Users/shahebaz_shaikh/Library/**)",
+      "Read(//opt/**)",
+      "Bash(brew --version)",
+      "Bash(brew install:*)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(npm run:*)",
+      "Bash(gh run:*)",
+      "Bash(gh auth:*)",
+      "WebSearch",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(mv \"First.png\" \"hero-section.png\")",
+      "Bash(mv \"Second.png\" \"experience-section.png\")"
+    ]
+  }
+}
