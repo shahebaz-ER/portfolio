@@ -92,7 +92,7 @@ function getKeyHighlights(description: string): string[] {
     }
   });
 
-  return highlights.slice(0, 3);
+  return highlights;
 }
 
 // Helper function to extract technologies from description
